@@ -1,0 +1,39 @@
+body{
+  background-color:#33F6FF;
+  text-align:center;
+
+}
+.name{
+font-family: 'Jacques Francois Shadow', cursive;
+font-size:100px;
+color:black;
+
+}
+input{
+  background-color:black;
+  border:white;
+  color:red;
+  cursor:pointer;
+  padding: 20px 32px;
+  text-align:center;
+  text-decoration-colour:white;
+  display:inline-block;
+  font-size: 15px;
+  margin: 3px 5px;
+  border-color:red;
+  border-radius:5px;
+}
+
+.first, .second, .third, .fourth , .fifth{
+  margin-botton:10px;
+}
+  input[type="text"] {
+    width:180px;
+    text-align:center;
+    font-size:25px;
+    background-colour:gray;
+
+}
+input[type="button"]:hover;{
+  background-color:gray;
+}

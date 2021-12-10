@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+</head>
+  <body>
+     <h1 class="name"> CALCULATOR </h1
+       <div class="First-row">
+         <input type="text" value="result" id="result" placeholder="result"/>
+         <input class="a" type="button" value="C" onclick="clearScreen()"/>
+       </div>
+       <div class="second">
+         <input type="button" value="1" onclick="pallavi(1)"/>
+         <input type="button" value="2"  onclick="pallavi(2)"/>
+         <input type="button" value="3"  onclick="pallavi(3)"/>
+         <input type="button" value="+"  onclick="pallavi('+')"/>
+
+       </div>
+       <div class="second">
+         <input type="button" value="4"  onclick="pallavi(4)"/>
+         <input type="button" value="5"  onclick="pallavi(5)"/>
+         <input type="button" value="6"  onclick="pallavi(6)"/>
+         <input type="button" value="_"  onclick="pallavi('_')"/>
+
+
+       </div>
+       <div class="third">
+         <input type="button" value="7"  onclick="pallavi(7)"/>
+         <input type="button" value="8"  onclick="pallavi(8)"/>
+         <input type="button" value="9"  onclick="pallavi(9)"/>
+         <input type="button" value="*"  onclick="pallavi('*')"/>
+       </div>
+
+       <div class="fourth">
+         <input type="button" value="/"  onclick="pallavi('/')"/>
+         <input type="button" value="0"  onclick="pallavi(0)"/>
+         <input type="button" value="."  onclick="pallavi('.')"/>
+         <input type="button" value="="  onclick="result.value=eval(result.value)"/>
+
+
+       </div>
+<script type"text/javascript" src="index.js"> </script>
+</body>
+</html>
